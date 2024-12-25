@@ -1,6 +1,6 @@
 # Transcribing books with Ollama vision models
 
-Included is a mediocre photograph (taken with an iPhone 13 and converted to jpeg w/ Gimp) of the first page of a Methods of Mathematical Physics: Volume 1. The included script and its prompt uses the Ollama inference engine with llama3.2-vision to attempt to accurately transcribe the text. 
+Included is a mediocre photograph (taken with an iPhone 13 and converted to jpeg w/ Gimp) of the first page of Methods of Mathematical Physics: Volume 1. The included script and its prompt uses the Ollama inference engine with llama3.2-vision to attempt to accurately transcribe the text. 
 
 The page has multiple subsections and also includes mathematical notation which should make transciption more difficult, especially for such a small multi-modal vision model. Here is an example of what I was able to produce given the prompt: `Extract all of the text from this photograph of a book page exactly as it appears in the image. Output the text in markdown format.`
 
@@ -24,4 +24,3 @@ The number x · y is called the "inner product" of the vectors x and y. Occasion
 If the inner product x · y vanishes, we say that the vectors x and y are orthogonal; for n = 2 and n = 3 this terminology has an immediate geometrical interpretation.
 
 This page is a continuation of Chapter I.
-```
