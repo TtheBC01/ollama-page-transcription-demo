@@ -14,7 +14,7 @@ response = chat(
   messages=[
     {
       'role': 'user',
-      'content': 'This is a picture of a page of a book. Extract the text and preserve heading titles. Any equations should be converted to Latex format.',
+      'content': 'Extract all of the text from this photograph of a book page exactly as it appears in the image. Output the text in markdown format.',
       'images': [path],
     }
   ],
