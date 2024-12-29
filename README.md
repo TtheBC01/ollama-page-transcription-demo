@@ -1,4 +1,4 @@
-# Transcribing books with Ollama vision models
+# Transcribing books using Ollama vision models for [OCR](https://en.wikipedia.org/wiki/Optical_character_recognition)
 
 Included is a mediocre photograph (taken with an iPhone 13 and converted to jpeg w/ Gimp) of the first page of Methods of Mathematical Physics: Volume 1. The included script and its prompt uses the Ollama inference engine with llama3.2-vision to attempt to accurately transcribe the text. 
 
